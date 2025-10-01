@@ -54,19 +54,19 @@ export default function HomePage() {
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex md:items-center md:space-x-8">
-        <a href="#features" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+        <a href="#features" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">
           Features
         </a>
-        <a href="#solutions" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+        <a href="#solutions" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">
           Solutions
         </a>
-        <a href="#pricing" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+        <a href="#pricing" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">
           Pricing
         </a>
-        <a href="#resources" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+        <a href="#resources" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">
           Resources
         </a>
-        <a href="#contact" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">
+        <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">
           Contact
         </a>
         <a href="#login" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
@@ -100,7 +100,7 @@ export default function HomePage() {
       <div className="md:hidden">
         <button
           type="button"
-          className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+          className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
           aria-expanded="false"
         >
           <span className="sr-only">Open main menu</span>
@@ -114,20 +114,20 @@ export default function HomePage() {
 
   {/* Mobile menu */}
   <div className="md:hidden hidden" id="mobile-menu">
-    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-      <a href="#features" className="text-gray-700 hover:bg-gray-100 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
+    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white dark:bg-gray-800 border-t dark:border-gray-700">
+      <a href="#features" className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">
         Features
       </a>
-      <a href="#solutions" className="text-gray-700 hover:bg-gray-100 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
+      <a href="#solutions" className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">
         Solutions
       </a>
-      <a href="#pricing" className="text-gray-700 hover:bg-gray-100 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
+      <a href="#pricing" className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">
         Pricing
       </a>
-      <a href="#resources" className="text-gray-700 hover:bg-gray-100 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
+      <a href="#resources" className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">
         Resources
       </a>
-      <a href="#contact" className="text-gray-700 hover:bg-gray-100 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">
+      <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">
         Contact
       </a>
       <a href="#login" className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">
@@ -297,14 +297,14 @@ export default function HomePage() {
 </div>
       
       {/* Services Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-slate-50 to-blue-50">
+      <section className="py-20 px-4 bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-800 dark:to-gray-900">
   <div className="max-w-7xl mx-auto">
     {/* Header */}
     <div className="text-center mb-16">
-      <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+      <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
         Elevate Your Marketing with CloudSync Pro
       </h2>
-      <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+      <p className="text-xl text-slate-600 dark:text-gray-300 max-w-3xl mx-auto">
         The all-in-one platform that connects your marketing stack, automates campaigns, and delivers actionable insights to drive growth.
       </p>
     </div>
@@ -312,26 +312,26 @@ export default function HomePage() {
     {/* Service Cards Grid */}
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
       {/* Card 1 */}
-      <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200 dark:border-gray-700">
         <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
           <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-3">
+        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
           Unified Marketing Stack
         </h3>
-        <p className="text-slate-600 mb-4">
+        <p className="text-slate-600 dark:text-gray-300 mb-4">
           CloudSync Pro seamlessly integrates with 100+ marketing tools including HubSpot, Salesforce, Google Analytics, Mailchimp, and social media platforms. Centralize your data and eliminate silos.
         </p>
         <ul className="space-y-2">
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
             One-click integrations with CRM & email platforms
           </li>
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
@@ -341,26 +341,26 @@ export default function HomePage() {
       </div>
 
       {/* Card 2 */}
-      <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200 dark:border-gray-700">
         <div className="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
           <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-3">
+        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
           No-Code Campaign Automation
         </h3>
-        <p className="text-slate-600 mb-4">
+        <p className="text-slate-600 dark:text-gray-300 mb-4">
           Build sophisticated marketing workflows without writing code. CloudSync Pro's visual automation builder lets you create drip campaigns, lead nurturing sequences, and multi-channel campaigns in minutes.
         </p>
         <ul className="space-y-2">
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
             Drag-and-drop workflow designer
           </li>
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
@@ -370,26 +370,26 @@ export default function HomePage() {
       </div>
 
       {/* Card 3 */}
-      <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200 dark:border-gray-700">
         <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
           <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-3">
+        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
           AI-Powered Marketing Intelligence
         </h3>
-        <p className="text-slate-600 mb-4">
+        <p className="text-slate-600 dark:text-gray-300 mb-4">
           CloudSync Pro analyzes your marketing data in real-time to surface actionable insights. Predict campaign performance, identify high-value leads, and optimize spend with machine learning algorithms.
         </p>
         <ul className="space-y-2">
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
             Predictive lead scoring & attribution
           </li>
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
@@ -399,26 +399,26 @@ export default function HomePage() {
       </div>
 
       {/* Card 4 */}
-      <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200 dark:border-gray-700">
         <div className="w-14 h-14 bg-amber-100 rounded-xl flex items-center justify-center mb-6">
           <svg className="w-8 h-8 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-3">
+        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
           Team Collaboration Hub
         </h3>
-        <p className="text-slate-600 mb-4">
+        <p className="text-slate-600 dark:text-gray-300 mb-4">
           Keep your marketing team aligned with CloudSync Pro's real-time collaboration features. Share campaigns, assign tasks, track approvals, and manage permissions all in one secure workspace.
         </p>
         <ul className="space-y-2">
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
             Role-based access controls
           </li>
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
@@ -428,26 +428,26 @@ export default function HomePage() {
       </div>
 
       {/* Card 5 */}
-      <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200 dark:border-gray-700">
         <div className="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mb-6">
           <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-3">
+        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
           Enterprise Security & Compliance
         </h3>
-        <p className="text-slate-600 mb-4">
+        <p className="text-slate-600 dark:text-gray-300 mb-4">
           CloudSync Pro protects your marketing data with enterprise-grade security. GDPR and CCPA compliant, SOC 2 certified, with end-to-end encryption and regular security audits.
         </p>
         <ul className="space-y-2">
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
             SOC 2 Type II certified infrastructure
           </li>
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
@@ -457,26 +457,26 @@ export default function HomePage() {
       </div>
 
       {/* Card 6 */}
-      <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-slate-200 dark:border-gray-700">
         <div className="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
           <svg className="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-3">
+        <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-3">
           24/7 Expert Support
         </h3>
-        <p className="text-slate-600 mb-4">
+        <p className="text-slate-600 dark:text-gray-300 mb-4">
           CloudSync Pro delivers 99.9% uptime SLA with round-the-clock support from marketing automation experts. Get help via chat, email, or phone whenever you need it.
         </p>
         <ul className="space-y-2">
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
             Dedicated account manager for enterprise
           </li>
-          <li className="flex items-start text-sm text-slate-700">
+          <li className="flex items-start text-sm text-slate-700 dark:text-gray-300">
             <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
@@ -507,20 +507,20 @@ export default function HomePage() {
 </section>
       
       {/* Testimonials Section */}
-      <section className="bg-gradient-to-b from-gray-50 to-white py-16 px-4 sm:px-6 lg:px-8">
+      <section className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 py-16 px-4 sm:px-6 lg:px-8">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-12">
-      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
         Trusted by Marketing Teams Worldwide
       </h2>
-      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+      <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
         See how CloudSync Pro is transforming marketing workflows and collaboration
       </p>
     </div>
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {/* Testimonial 1 */}
-      <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
         <div className="flex items-center mb-6">
           <img
             src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
@@ -528,9 +528,9 @@ export default function HomePage() {
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
-            <h3 className="font-semibold text-gray-900 text-lg">Sarah Mitchell</h3>
-            <p className="text-gray-600 text-sm">Marketing Director</p>
-            <p className="text-gray-500 text-sm">BrandVision Agency</p>
+            <h3 className="font-semibold text-gray-900 dark:text-white text-lg">Sarah Mitchell</h3>
+            <p className="text-gray-600 dark:text-gray-300 text-sm">Marketing Director</p>
+            <p className="text-gray-500 dark:text-gray-400 text-sm">BrandVision Agency</p>
           </div>
         </div>
         <div className="flex mb-4">
@@ -540,13 +540,13 @@ export default function HomePage() {
             </svg>
           ))}
         </div>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
           "CloudSync Pro has revolutionized how our team manages campaign assets. We can now collaborate on creative files in real-time across three offices. The version control alone has saved us countless hours of confusion and rework."
         </p>
       </div>
 
       {/* Testimonial 2 */}
-      <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
         <div className="flex items-center mb-6">
           <img
             src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop"
@@ -554,9 +554,9 @@ export default function HomePage() {
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
-            <h3 className="font-semibold text-gray-900 text-lg">Marcus Chen</h3>
-            <p className="text-gray-600 text-sm">Content Marketing Lead</p>
-            <p className="text-gray-500 text-sm">TechGrowth Solutions</p>
+            <h3 className="font-semibold text-gray-900 dark:text-white text-lg">Marcus Chen</h3>
+            <p className="text-gray-600 dark:text-gray-300 text-sm">Content Marketing Lead</p>
+            <p className="text-gray-500 dark:text-gray-400 text-sm">TechGrowth Solutions</p>
           </div>
         </div>
         <div className="flex mb-4">
@@ -566,13 +566,13 @@ export default function HomePage() {
             </svg>
           ))}
         </div>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
           "Managing content calendars and media libraries used to be a nightmare. CloudSync Pro's seamless integration with our marketing stack means our team can access everything from blog drafts to video assets instantly. It's a game-changer for productivity."
         </p>
       </div>
 
       {/* Testimonial 3 */}
-      <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
         <div className="flex items-center mb-6">
           <img
             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
@@ -580,9 +580,9 @@ export default function HomePage() {
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
-            <h3 className="font-semibold text-gray-900 text-lg">Emily Rodriguez</h3>
-            <p className="text-gray-600 text-sm">Social Media Manager</p>
-            <p className="text-gray-500 text-sm">Momentum Digital</p>
+            <h3 className="font-semibold text-gray-900 dark:text-white text-lg">Emily Rodriguez</h3>
+            <p className="text-gray-600 dark:text-gray-300 text-sm">Social Media Manager</p>
+            <p className="text-gray-500 dark:text-gray-400 text-sm">Momentum Digital</p>
           </div>
         </div>
         <div className="flex mb-4">
@@ -592,7 +592,7 @@ export default function HomePage() {
             </svg>
           ))}
         </div>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
           "As someone managing multiple client accounts, CloudSync Pro keeps all our social media graphics, brand guidelines, and campaign materials perfectly organized. The mobile app means I can approve content on-the-go. Absolutely essential for modern marketing teams."
         </p>
       </div>

@@ -69,10 +69,10 @@ export default function HomePage() {
         <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">
           Contact
         </a>
-        <a href="#login" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+        <a href="#login" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 text-sm font-medium transition-colors">
           Login
         </a>
-        <a href="#demo" className="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors shadow-md">
+        <a href="#demo" className="bg-blue-600 dark:bg-blue-500 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors shadow-md">
           Get Demo
         </a>
       </div>
@@ -100,7 +100,7 @@ export default function HomePage() {
       <div className="md:hidden">
         <button
           type="button"
-          className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
+          className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600"
           aria-expanded="false"
         >
           <span className="sr-only">Open main menu</span>
@@ -130,10 +130,10 @@ export default function HomePage() {
       <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">
         Contact
       </a>
-      <a href="#login" className="text-gray-700 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium">
+      <a href="#login" className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
         Login
       </a>
-      <a href="#demo" className="bg-blue-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 text-center mt-2">
+      <a href="#demo" className="bg-blue-600 dark:bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 dark:hover:bg-blue-600 text-center mt-2">
         Get Demo
       </a>
     </div>
